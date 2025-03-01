@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "写日记"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "看日记",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"onReachBottomDistance": 150,  //距离底部150上滑有效
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "树洞日记本",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "red",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "写日记",
+				"iconPath": "static/nav2.png",
+				"selectedIconPath": "static/nav2-a.png"
+			},
+			{
+				"pagePath": "pages/list/list",
+				"text": "看日记",
+				"iconPath": "static/nav1.png",
+				"selectedIconPath": "static/nav1-a.png"
+			}]
+	}
+	
+}
