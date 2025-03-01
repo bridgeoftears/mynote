@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/list/list",
+    "pages/edit/edit"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "树洞日记本",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "red",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "写日记",
+        "iconPath": "static/nav2.png",
+        "selectedIconPath": "static/nav2-a.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "看日记",
+        "iconPath": "static/nav1.png",
+        "selectedIconPath": "static/nav1-a.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

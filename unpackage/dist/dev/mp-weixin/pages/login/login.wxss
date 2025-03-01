@@ -1,0 +1,15 @@
+
+.myfrom {
+	margin: 30% 10px 40px 10px;
+}
+.myinput {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+}
+.mybutton {
+	margin-top: 20px;
+}
+

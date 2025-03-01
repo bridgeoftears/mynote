@@ -1,0 +1,25 @@
+
+.body {
+	margin: 10px;
+}
+.note-item {
+	padding: 2px;
+	margin-bottom: 15px;
+	background-color: #e6e9f0;
+	border-radius: 10px;
+	border: 2rpx solid #ccc;
+	color: #000000;
+	line-height: 25px;
+	font-size: 12px;
+}
+.note-txt {
+	padding: 10px;
+	font-size: 16px;
+	color: #333;
+}
+.note-tool {
+	padding: 2px;
+	font-size: 14px;
+	color: #ccc;
+}
+
